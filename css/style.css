@@ -178,7 +178,7 @@ border-radius: 8px;
 background: #F00;
 color: #FFF;
 padding: 15px 25px;
-font-family: 'Inter' , serif;
+font-family: 'Inter',serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -189,6 +189,161 @@ border: none;
 }
 
 
-
-
 /* Location Banner End */
+
+
+/* .best_offer_section start */
+
+
+
+#best_offer_section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 100px auto;
+    width: 84%;
+    gap: 27px;
+}
+
+
+.best_offer_section-1{
+  margin-top: 90px;
+}
+
+.best_offer_title-1{
+color: #F00;
+font-family:'Inter',serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.best_offer_title-2{
+color: #070211;
+font-family: 'Merriweather',serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.best_offer_description{
+color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter',serif;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin-top: 20px;
+}
+
+.offer_section_image{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 30px;
+    object-fit: cover;
+}
+
+.best_offer_title-3{
+color: #F00;
+font-family: 'Inter' , serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.best_offer_section-2{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.best_offer_description-1{
+color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter',serif;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 20px;
+margin-top: 16px;
+}
+
+/* .best_offer_section end */
+
+
+#holiday_sale_section{
+    width: 84%;
+    margin: 50px auto;
+}
+
+.holiday_sale_section-1{
+    text-align: center;
+}
+
+.holiday_sale_title-1{
+color: #070211;
+font-family: 'Inter' , serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.holiday_sale_title-2{
+color: #070211;
+font-family: 'Merriweather', serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.holiday_sale_description{
+color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter' , serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+width: 90%;
+margin: 20px auto;
+}
+
+.holiday_sale_image_before{
+    position: relative;
+}
+
+.holiday_sale_image{
+float: right;
+}
+
+.holiday_sale_image_before::before{
+    background-image: url('../images/Group44.png');
+    position: absolute;
+    content: '';
+    right: 318px;
+    top: 95px;
+    height: 265px;
+    width: 265px;
+}
+
+.holiday_sale_image-1{
+    width: 100%;
+}
+
+.holiday_sale_image_before-1{
+    position: relative;
+}
+
+.holiday_sale_image_before-1::before {
+    background-image: url(../images/Group75.png);
+    position: absolute;
+    content: '';
+    right: 533px;
+    top: 134px;
+    height: 460px;
+    width: 569px;
+    background-size: 100% 100%;
+}
