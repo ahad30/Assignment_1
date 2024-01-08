@@ -1,0 +1,194 @@
+/* Universal CSS Start*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Universal CSS End*/
+
+
+/* New Year Banner Section Start */
+
+#new_year_banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(92, 33, 212, 0) 100%), url('../images/BannerImage.png');
+    background-repeat: no-repeat;
+    width: 84%;
+    height: 600px;
+    margin: 50px auto;
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.new_year_title-1 {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 180px;
+
+}
+
+.new_year_title-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 20px;
+
+}
+
+/* New Year Banner Section End */
+
+
+/* <!-- discount_banner Start --> */
+
+#discount_banner h1,
+h6,
+h2 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.discount_title-1 {
+    color: #F00;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.discount_title-2 {
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.discount_title-3 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+.discount_image {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* <!-- discount_banner End --> */
+
+
+
+/* <!-- welcome_banner start --> */
+
+#welcome_banner {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/welcome.png');
+    background-repeat: no-repeat;
+    width: 84%;
+    height: 600px;
+    margin: 50px auto;
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.welcome_content {
+    padding: 126px 126px;
+}
+
+.welcome_title-1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.welcome_description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    padding-right: 190px;
+}
+
+.join_now {
+    color: #FFF;
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+/* <!-- welcome_banner end --> */
+
+
+/* Location Banner Start */
+
+#location_banner {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 84%;
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.location_content {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding: 100px;
+}
+
+.orange {
+    color: #F00;
+}
+
+.join_btn{
+border-radius: 8px;
+background: #F00;
+color: #FFF;
+padding: 15px 25px;
+font-family: 'Inter' , serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 40px;
+border: none;
+}
+
+
+
+
+/* Location Banner End */
