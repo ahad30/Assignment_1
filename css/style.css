@@ -474,6 +474,7 @@ text-transform: capitalize;
 /* <!-- subscribe_section End--> */
 
 
+/* <!-- footer Section Start --> */
 
 .flex{
     display: flex;
@@ -533,3 +534,5 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
 }
+
+/* <!-- footer Section End --> */
